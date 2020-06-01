@@ -1,0 +1,32 @@
+.root{
+-fx-background-color: #FFDAB9;
+}
+.button{
+-fx-background-color:#FFA07A;
+-fx-background-radius: 20;
+-fx-border-radius: 20;
+-fx-text-fill: #2F4F4F;
+-fx-border-color: #87CEEB;
+-fx-border-width: 2;
+-fx-font-size: 20;
+-fx-font-weight: bolder;
+
+}
+.button:hover {
+    -fx-background-color: #00FFFF;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.text-field{
+
+-fx-text-fill: #2F4F4F;
+-fx-font-size: 20;
+-fx-font-weight: bolder;
+
+-fx-background-color: #7FFFD4;
+-fx-padding-bottom: 10px;
+-fx-background-radius: 20;
+-fx-border-radius: 20;
+-fx-border-color: #87CEEB;
+-fx-border-width: 2;
+}
